@@ -2,3 +2,6 @@
 function functionName() {
     alert("functionName");
 }
+function functionName() {
+    alert(arguments.callee.name);
+}
